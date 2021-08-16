@@ -1,0 +1,34 @@
+.counter {
+    margin: 20px;
+}
+
+button {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    background-color: #ABDEE6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+}
+
+    button:hover {
+        background-color: #8FCACA
+    }
+
+    button:active {
+        background-color: #8FCACA;
+        box-shadow: 0 4px #666;
+        transform: translateY(4px);
+    }
+
+span {
+    font-family: monospace;
+    font-size: 17px;
+}

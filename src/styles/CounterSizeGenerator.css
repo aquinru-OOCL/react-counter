@@ -1,0 +1,10 @@
+.counterSizeGenerator {
+    margin: 25px;
+    border: ridge;
+    border-width: 2px;
+    background-color: lightblue;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

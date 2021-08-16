@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/CounterSizeGenerator.css";
 
 function CounterSizeGenerator(props) {
 
@@ -10,7 +11,7 @@ function CounterSizeGenerator(props) {
     }
 
     return (
-        <div>
+        <div className="counterSizeGenerator">
             <span>Size: </span>
             <input type="number" min="0" defaultValue="0" value={size} onChange={handleChangeSize}></input>
         </div>
